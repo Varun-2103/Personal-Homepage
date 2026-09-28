@@ -18,7 +18,7 @@ YouTube demo link:
 
 ## Screenshot of the Website
 
-![Homepage screenshot thats used for thumbnail](images\Project-thumbnail.png)
+![Homepage screenshot thats used for thumbnail](images/Project-thumbnail.png)
 
 ## Project Objective
 
