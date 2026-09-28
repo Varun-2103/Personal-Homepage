@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Sai Venkatesh Varun M.M.">
+  <meta name="description" content="Technical projects by Sai Venkatesh Varun M.M.">
+  <title>Projects | Sai Varun</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html">SV<span>.</span></a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        Menu
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero container">
+      <p class="eyebrow">TECHNICAL PROJECTS</p>
+
+      <h1>Selected work.</h1>
+
+      <p>
+        Projects spanning data engineering, desktop software, machine learning,
+        and large language models.
+      </p>
+    </section>
+
+    <section class="section container project-list">
+
+      <!-- Project 01 -->
+      <article class="project-detail project-hover" id="streaming">
+        <div class="project-meta">
+          <span>01</span>
+          <span>Sept 2025 - Dec 2025</span>
+        </div>
+
+        <h2>Streaming Analytics Data Warehouse</h2>
+
+        <p class="lead">
+          A cloud-hosted analytics workflow designed around scalable relational
+          data modeling and automated processing.
+        </p>
+
+        <ul>
+          <li>
+            Architected a year-partitioned star schema in MySQL for multi-year
+            streaming data.
+          </li>
+
+          <li>
+            Engineered an automated ETL pipeline using R and SQLite to extract,
+            clean, and validate 98,000+ streaming transactions.
+          </li>
+
+          <li>
+            Created automated R Markdown reports and data visualizations to
+            communicate business insights.
+          </li>
+        </ul>
+
+        <div class="tag-row">
+          <span>R</span>
+          <span>SQLite</span>
+          <span>MySQL</span>
+          <span>ETL</span>
+          <span>Data Visualization</span>
+        </div>
+
+        <a
+          class="project-explore"
+          href="https://github.com/Varun-2103"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore on GitHub →
+        </a>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="project-detail project-hover" id="scheduler">
+        <div class="project-meta">
+          <span>02</span>
+          <span>Sept 2025 - Dec 2025</span>
+        </div>
+
+        <h2>Event Scheduler</h2>
+
+        <p class="lead">
+          A Java desktop calendar inspired by familiar scheduling applications
+          and designed around MVC separation.
+        </p>
+
+        <ul>
+          <li>
+            Architected a full-featured desktop calendar using the
+            Model-View-Controller pattern.
+          </li>
+
+          <li>
+            Built an interactive Java Swing GUI for event management, error
+            detection, and date navigation.
+          </li>
+
+          <li>
+            Implemented JUnit test suites achieving 90%+ code coverage across
+            business logic and edge cases.
+          </li>
+        </ul>
+
+        <div class="tag-row">
+          <span>Java</span>
+          <span>Java Swing</span>
+          <span>MVC</span>
+          <span>JUnit</span>
+        </div>
+
+        <a
+          class="project-explore"
+          href="https://github.com/Varun-2103"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore on GitHub →
+        </a>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="project-detail project-hover" id="llm">
+        <div class="project-meta">
+          <span>03</span>
+          <span>Jul 2024 - Dec 2024</span>
+        </div>
+
+        <h2>Energy-Efficient Transfer Learning for LLMs</h2>
+
+        <p class="lead">
+          Adaptive fine-tuning and dynamic pruning research focused on reducing
+          energy and computational overhead.
+        </p>
+
+        <ul>
+          <li>
+            Proposed adaptive fine-tuning and dynamic pruning strategies for
+            large language models.
+          </li>
+
+          <li>
+            Benchmarked performance using OPL on Wikitext2, PTB, and C4
+            datasets.
+          </li>
+
+          <li>
+            Tested model robustness using perplexity scores, maintaining viable
+            performance at 50% sparsity.
+          </li>
+        </ul>
+
+        <div class="tag-row">
+          <span>LLMs</span>
+          <span>Pruning</span>
+          <span>Transfer Learning</span>
+          <span>OPL</span>
+        </div>
+
+        <a
+          class="project-explore"
+          href="https://github.com/Varun-2103"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore on GitHub →
+        </a>
+      </article>
+
+    </section>
+
+    <!-- Creative Component -->
+    <section class="section section-green">
+      <div class="container split">
+
+        <div>
+          <p class="eyebrow">CREATIVE COMPONENT</p>
+
+          <h2>Project Signal</h2>
+
+          <p>
+            Explore my work by technical theme. Select a signal and the
+            portfolio will surface projects connected to data, AI, or software
+            engineering.
+          </p>
+        </div>
+
+        <div class="signal-panel">
+
+          <div
+            class="signal-buttons"
+            role="group"
+            aria-label="Project filters"
+          >
+            <button
+              class="signal-button active"
+              data-filter="all"
+              type="button"
+            >
+              All
+            </button>
+
+            <button
+              class="signal-button"
+              data-filter="data"
+              type="button"
+            >
+              Data
+            </button>
+
+            <button
+              class="signal-button"
+              data-filter="ai"
+              type="button"
+            >
+              AI
+            </button>
+
+            <button
+              class="signal-button"
+              data-filter="software"
+              type="button"
+            >
+              Software
+            </button>
+          </div>
+
+          <div
+            id="signal-results"
+            class="signal-results"
+            aria-live="polite"
+          ></div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Sai Venkatesh Varun M.M.</p>
+
+      <a href="index.html">Back home ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>

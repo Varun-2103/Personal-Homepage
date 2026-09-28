@@ -1,0 +1,16 @@
+{
+  "name": "sai-varun-portfolio",
+  "version": "1.0.0",
+  "description": "Static portfolio website built with vanilla HTML5, CSS3, and ES6 modules.",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint js/",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
