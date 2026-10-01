@@ -195,6 +195,10 @@ The final website content and design were reviewed and customized by me.
 
 The project includes the required files and is prepared for code review as part of the course submission.
 
+Peer - Code Review:
+I've added the link for the code review I've done on my peer's GITHUB repo here after the professor suggested in the sync session.
+https://github.com/Manojh23/manoj_cs5610_project1/pulls
+
 ## License
 
 This project uses the MIT License.
