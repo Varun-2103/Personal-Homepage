@@ -15,6 +15,10 @@ https://varun-2103.github.io/Personal-Homepage/
 ## Video Demo
 
 YouTube demo link: 
+https://youtu.be/07VUQWQD55w?si=ldcFpCHGfyIi7nT3
+
+## Project Presentation
+https://docs.google.com/presentation/d/1ZePS9C8L3AKNgNvkY9UBACxLMdXWL1AksnJ6sad4jOI/edit?usp=sharing
 
 ## Screenshot of the Website
 
@@ -167,8 +171,6 @@ and
 ```bash
 npm run lint
 ```
-
-## Lice
 
 ## Gen AI Usage
 GenAI Usage
