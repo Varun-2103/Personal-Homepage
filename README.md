@@ -171,6 +171,9 @@ and
 ```bash
 npm run lint
 ```
+## Styling
+
+The website uses custom CSS stored in the css/ folder. The layout uses CSS Grid and Flexbox, with a consistent white and green colour scheme across all pages. No !important rules or CSS frameworks were used.
 
 ## Gen AI Usage
 GenAI Usage
